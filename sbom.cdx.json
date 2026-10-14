@@ -1,0 +1,243 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:4ad07efd-534c-5c53-8edf-26bebc43200b",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:46:17Z",
+  "component": {
+   "type": "application",
+   "name": "DEEPSPEED",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/DEEPSPEED@83b357604d34",
+   "purl": "pkg:generic/anticloud/DEEPSPEED@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "nvidia",
+   "version": "unspecified",
+   "purl": "pkg:generic/nvidia",
+   "bom-ref": "conda/nvidia@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "11.8.0",
+   "version": "unspecified",
+   "purl": "pkg:generic/11.8.0",
+   "bom-ref": "conda/11.8.0@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytorch",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytorch",
+   "bom-ref": "conda/pytorch@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "nightly",
+   "version": "unspecified",
+   "purl": "pkg:generic/nightly",
+   "bom-ref": "conda/nightly@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "torchvision",
+   "version": "unspecified",
+   "purl": "pkg:generic/torchvision",
+   "bom-ref": "conda/torchvision@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "torchaudio",
+   "version": "unspecified",
+   "purl": "pkg:generic/torchaudio",
+   "bom-ref": "conda/torchaudio@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "cuda",
+   "version": "unspecified",
+   "purl": "pkg:generic/cuda",
+   "bom-ref": "conda/cuda@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytorch-cuda",
+   "version": "11.8",
+   "purl": "pkg:generic/pytorch-cuda@11.8",
+   "bom-ref": "conda/pytorch-cuda@11.8"
+  },
+  {
+   "type": "library",
+   "name": "compilers",
+   "version": "unspecified",
+   "purl": "pkg:generic/compilers",
+   "bom-ref": "conda/compilers@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sysroot_linux-64",
+   "version": "2.17",
+   "purl": "pkg:generic/sysroot_linux-64@2.17",
+   "bom-ref": "conda/sysroot_linux-64@2.17"
+  },
+  {
+   "type": "library",
+   "name": "gcc",
+   "version": "11.4",
+   "purl": "pkg:generic/gcc@11.4",
+   "bom-ref": "conda/gcc@11.4"
+  },
+  {
+   "type": "library",
+   "name": "ninja",
+   "version": "unspecified",
+   "purl": "pkg:generic/ninja",
+   "bom-ref": "conda/ninja@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "py-cpuinfo",
+   "version": "unspecified",
+   "purl": "pkg:generic/py-cpuinfo",
+   "bom-ref": "conda/py-cpuinfo@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "libaio",
+   "version": "unspecified",
+   "purl": "pkg:generic/libaio",
+   "bom-ref": "conda/libaio@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ca-certificates",
+   "version": "unspecified",
+   "purl": "pkg:generic/ca-certificates",
+   "bom-ref": "conda/ca-certificates@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "certifi",
+   "version": "unspecified",
+   "purl": "pkg:generic/certifi",
+   "bom-ref": "conda/certifi@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "openssl",
+   "version": "unspecified",
+   "purl": "pkg:generic/openssl",
+   "bom-ref": "conda/openssl@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "3.10",
+   "purl": "pkg:generic/python@3.10",
+   "bom-ref": "conda/python@3.10"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": "unspecified",
+   "purl": "pkg:generic/pydantic",
+   "bom-ref": "conda/pydantic@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "DS_BUILD_OPS",
+   "version": "={BUILD_OP_DEFAULT}",
+   "purl": "pkg:pypi/ds-build-ops@{BUILD_OP_DEFAULT}",
+   "bom-ref": "pypi/DS_BUILD_OPS@={BUILD_OP_DEFAULT}"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "={version_str}, git_hash={git_hash}, git_branch={git_branch}",
+   "purl": "pkg:pypi/version@{version_str}, git_hash={git_hash}, git_branch={git_branch}",
+   "bom-ref": "pypi/version@={version_str}, git_hash={git_hash}, git_branch={git_branch}"
+  },
+  {
+   "type": "library",
+   "name": "git_hash",
+   "version": "=",
+   "purl": "pkg:pypi/git-hash@",
+   "bom-ref": "pypi/git_hash@="
+  },
+  {
+   "type": "library",
+   "name": "git_branch",
+   "version": "=",
+   "purl": "pkg:pypi/git-branch@",
+   "bom-ref": "pypi/git_branch@="
+  },
+  {
+   "type": "library",
+   "name": "installed_ops",
+   "version": "={install_ops}\\n",
+   "purl": "pkg:pypi/installed-ops@{install_ops}\\n",
+   "bom-ref": "pypi/installed_ops@={install_ops}\\n"
+  },
+  {
+   "type": "library",
+   "name": "accelerator_name",
+   "version": "=",
+   "purl": "pkg:pypi/accelerator-name@",
+   "bom-ref": "pypi/accelerator_name@="
+  },
+  {
+   "type": "library",
+   "name": "torch_info",
+   "version": "={torch_info}\\n",
+   "purl": "pkg:pypi/torch-info@{torch_info}\\n",
+   "bom-ref": "pypi/torch_info@={torch_info}\\n"
+  },
+  {
+   "type": "library",
+   "name": "install_requires",
+   "version": "={install_requires}",
+   "purl": "pkg:pypi/install-requires@{install_requires}",
+   "bom-ref": "pypi/install_requires@={install_requires}"
+  },
+  {
+   "type": "library",
+   "name": "ext_modules",
+   "version": "={ext_modules}",
+   "purl": "pkg:pypi/ext-modules@{ext_modules}",
+   "bom-ref": "pypi/ext_modules@={ext_modules}"
+  }
+ ],
+ "sha_unverified": true
+}
