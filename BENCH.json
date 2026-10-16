@@ -543,7 +543,7 @@
    "url": "https://github.com/deepspeedai/DeepSpeed",
    "head": "5f266e26d216a705d9c64cac88fb813cefdbac4b",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/deepspeedai/DeepSpeedExamples"
+   "previous_substitute": "https://github.com/deepspeedai/DeepSpeed"
   }
  }
 }
